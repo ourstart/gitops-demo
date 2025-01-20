@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/echo-server
+  repository: hanyan-acree-standard-registry-vpc.cn-beijing.cr.aliyuncs.com/workshop/echo-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.0"
+  tag: "v2.0"
 
 imagePullSecrets: []
 nameOverride: ""
